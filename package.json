@@ -4,13 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    // in package.json
-...
-"scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html"
-  },
-...
   },
   "keywords": [],
   "author": "",
@@ -22,6 +17,10 @@
     "prettier": "1.19.1"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "html-literal": "^1.1.0",
+    "lodash": "^4.17.21",
+    "navigo": "^8.11.1",
     "parcel": "^2.5.0",
     "yargs-parser": ">=13.1.2"
   }
