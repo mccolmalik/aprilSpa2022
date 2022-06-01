@@ -24,7 +24,10 @@ app.get("/status", (request, response) => {
 app.post("/echo", (request, response) => {
   response.json({ "request.body": request.body });
 });
-
+// CORS Middleware
+const cors = (req, res, next) => {
+  res.setHeader("Access=Control=");
+};
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
