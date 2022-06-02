@@ -37,7 +37,7 @@ function afterRender(state) {
         cheese: inputList.cheese.value,
         sauce: inputList.sauce.value,
         toppings: toppings,
-        customer: "Mason"
+        customer: "Malik"
       };
       axios
         .post(`${process.env.PIZZA_PLACE_API_URL}`, requestData)
